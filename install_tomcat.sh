@@ -9,9 +9,9 @@ instalar_tomcat() {
 
     # Baixar e extrair a versão mais recente do Tomcat
     cd /opt
-    sudo wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0.58.tar.gz
-    sudo tar -xvzf apache-tomcat-9.0.58.tar.gz
-    sudo mv apache-tomcat-9.0.58 tomcat
+    sudo wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.tar.gz
+    sudo tar -xvzf apache-tomcat-9.0.76.tar.gz
+    sudo mv apache-tomcat-9.0.76 tomcat
 
     # Definir permissões e iniciar o Tomcat
     sudo chown -R $USER:$USER /opt/tomcat
